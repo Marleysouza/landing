@@ -37,6 +37,7 @@ body{
 }
 
 .menu-nav{
+    display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
@@ -126,7 +127,7 @@ body{
 
 .button-baner{
     z-index: 2;
-    margin-top: -25px;
+    margin-top: -45px;
     display: flex;
     gap: 30px;
 }
@@ -141,6 +142,7 @@ body{
 }
 
 .cards-1{
+    background-image: linear-gradient(180deg,#020202,#121212);
     margin-top: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -151,30 +153,32 @@ body{
 
 .cards-1 div{
     width: 100%;
-    height: 100%;
-    border: 1px solid #ffffff90;
+    height: 80%;
 }
 
 #card-1{
     background-image: url(assents/cards/Paisagem-pista.svg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #card-2{
     background-image: url(assents/cards/Parabrisa-car.svg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #card-3{
     background-image: url(assents/cards/cyber-trunk-marte.svg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grid-product{
-    background-image: url(https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/CYBERTRUCK/EXTERIOR/1991770-00-A-01.png);
+    background-color: #121212;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -195,12 +199,12 @@ body{
     padding: 10px 20px 10px 20px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10PX;
+    gap: 20PX;
     overflow: auto;
 }
 
 .product div{
-    border-radius: 10px;
+    background-image: linear-gradient(320deg,#121212 34px,#ffffff00 35px);
     display: flex;
     flex-direction: column;
     align-items: center;

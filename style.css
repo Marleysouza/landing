@@ -26,6 +26,10 @@ body{
     padding: 0px 20px 0px 20px;
 }
 
+.icons-menu button{
+    display: none;
+}
+
 .logo{
     cursor: pointer;
     width: 112px;
@@ -33,7 +37,6 @@ body{
 }
 
 .menu-nav{
-    display: flex;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
@@ -208,4 +211,17 @@ body{
 
 .product img{
     width: 300px;
+}
+
+@media(max-width: 800px){
+    .menu-nav{
+        display: none;
+    }
+    .icons-menu button{
+        margin-left: 10px;
+        display: block;
+    }
+    .icons-menu{
+        width: 150px;
+    }
 }

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cabecalho{
+    margin-top: 10px;
+    backdrop-filter: blur(10px);
+    background-color: #00000040;
+    border-bottom: 1px solid #ffffff20;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.logo{
+    cursor: pointer;
+    width: 112px;
+    height: 25px;
+}
+
+.menu-nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: #ffffff90;
+}
+
+.menu-nav a:hover{
+    color: #ffffff;
+}
+
+.icons-menu{
+    width: 112px;
+    display: flex;
+    gap: 10px;
+}
+
+.icons-menu img{
+    cursor: pointer;
+    height: 25px;
+}
+
+.over{
+    background-color: #00000050;
+    position: absolute;
+    width: 100%;
+    height: 610px;
+}
+.baner{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.baner-img{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: auto;
+    scrollbar-width:none;
+}
+
+#car-1{
+    width: 100vw;
+    height: 600px;
+    background-image: url(assents/main/carro-tesla-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#car-2{
+    width: 100vw;
+    height: 600px;
+    background-image: url(assents/main/carro-amigo-cachorro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#car-3{
+    width: 100vw;
+    height: 600px;
+    background-image: url(assents/main/Cybertrunk-neblina-noite.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#car-4{
+    width: 100vw;
+    height: 600px;
+    background-image: url(assents/main/carro-familia.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.button-baner{
+    z-index: 2;
+    margin-top: -25px;
+    display: flex;
+    gap: 30px;
+}
+
+.button-baner button{
+    background-color:#ffffffaa;
+    cursor: pointer;
+    color: #ffffff00;
+    width: 30px;
+    height: 10px;
+    border: none;
+}
+
+.cards-1{
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+}
+
+.cards-1 div{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ffffff90;
+}
+
+#card-1{
+    background-image: url(assents/cards/Paisagem-pista.svg);
+    background-position: center;
+}
+
+#card-2{
+    background-image: url(assents/cards/Paisagem-pista.svg);
+    background-position: center;
+}
+
+#card-3{
+    background-image: url(assents/cards/Paisagem-pista.svg);
+    background-position: center;
+}
